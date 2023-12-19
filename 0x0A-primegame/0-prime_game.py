@@ -4,6 +4,7 @@
 This contains an isWinner function
 """
 
+
 def generate_primes(n):
     """Generates list of prime numbers between 1 and n inclusive
     """
@@ -19,7 +20,6 @@ def generate_primes(n):
             primes.append(num)
 
     return primes
-
 
 
 def isWinner(x, nums):
